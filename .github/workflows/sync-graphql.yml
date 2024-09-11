@@ -29,7 +29,7 @@ jobs:
           src/graphql/scripts/sync.js
       - name: Create pull request
         id: create-pull-request
-        uses: peter-evans/create-pull-request@70a41aba780001da0a30141984ae2a0c95d8704e # pin @v6.0.2
+        uses: peter-evans/create-pull-request@8867c4aba1b742c39f8d0ba35429c2dfa4b6cb20 # pin @v7.0.1
         env:
           # Disable pre-commit hooks; they don't play nicely here
           HUSKY: '0'
